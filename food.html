@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>This is my Testing API website for search food </title>
+</head>
+<body>
+    
+    <div class="navbar bg-base-100 shadow-xl">
+        <div class="flex-auto">
+          <a class="btn btn-ghost text-xl">Website</a>
+        </div>
+        <div class="flex-none gap-2">
+            <div class="flex-none font-semibold">
+                <ul class=" menu menu-horizontal px-1">
+                    <li><a href="index.html">Country</a></li>
+                    <li><a href="food.html">Food</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+        
+    <div class="flex justify-center gap-1 my-6">
+        <input id="search-input" type="email" placeholder="Search your food here" class="input input-bordered w-96" >
+        <button id="search-button"  class="btn btn-outline btn-primary">Search</button>
+
+    </div>
+
+    <div id="foods-div" class="grid grid-cols-3 gap-8 container mx-auto">
+    
+    </div>
+
+    <script src="js/food.js"></script>
+</body>
+</html>
